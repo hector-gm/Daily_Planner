@@ -19,103 +19,105 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
+    <title>Your Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3">Your Work Day Scheduler</h1>
+      <p class="lead">A simple web browser calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
         <div class="row">
-            <div class="hour_slot">8AM</div>
-            <textarea class="Task" id="note1"></textarea>
-            <button class="fa fa-archive" id="save8am"></button>
+            <div class="hour_slot">8 AM</div>
+            <textarea class="Task" id="note0"></textarea>
+            <button class="saveBtn fa fa-archive" id="save8am"></button>
         </div>
     </div>
     <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">9AM</div>
+              <div class="hour_slot">9 AM</div>
               <textarea class="Task" id="note1"></textarea>
-              <button class="fa fa-archive" id="save8am"></button>
+              <button class="saveBtn saveBtn:Hover fa fa-archive" id="save9am"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">10AM</div>
-              <textarea class="Task" id="note1"></textarea>
-              <button class="fa fa-archive" id="save8am"></button>
+              <textarea class="Task" id="note2"></textarea>
+              <button class="saveBtn saveBtn:Hover fa fa-archive" id="save10am"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">11AM</div>
-              <textarea class="Task" id="note1"></textarea>
-              <button class="fa fa-archive" id="save8am"></button>
+              <textarea class="Task" id="note3"></textarea>
+              <button class="saveBtn saveBtn:Hover fa fa-archive" id="save11am"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">12PM</div>
-              <textarea class="Task" id="note1"></textarea>
-              <button class="fa fa-archive" id="save8am"></button>
+              <textarea class="Task" id="note4"></textarea>
+              <button class="saveBtn saveBtn:Hover fa fa-archive" id="save12pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">1PM</div>
-              <textarea class="Task" id="note1"></textarea>
-              <button class="fa fa-archive" id="save8am"></button>
+              <div class="hour_slot">1 PM</div>
+              <textarea class="Task" id="note5"></textarea>
+              <button class="saveBtn saveBtn:Hover fa fa-archive" id="save1pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">2PM</div>
-              <textarea class="Task" id="note1"></textarea>
-              <button class="fa fa-archive" id="save8am"></button>
+              <div class="hour_slot">2 PM</div>
+              <textarea class="Task" id="note6"></textarea>
+              <button class="saveBtn saveBtn:Hover fa fa-archive" id="save2pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">3PM</div>
-              <textarea class="Task" id="note1"></textarea>
-              <button class="fa fa-archive" id="save8am"></button>
+              <div class="hour_slot">3 PM</div>
+              <textarea class="Task" id="note7"></textarea>
+              <button class="saveBtn saveBtn:Hover fa fa-archive" id="save3pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">4PM</div>
-              <textarea class="Task" id="note1"></textarea>
-              <button class="fa fa-archive" id="save8am"></button>
+              <div class="hour_slot">4 PM</div>
+              <textarea class="Task" id="note8"></textarea>
+              <button class="saveBtn saveBtn:Hover fa fa-archive" id="save4pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">5PM</div>
-              <textarea class="Task" id="note1"></textarea>
-              <button class="fa fa-archive" id="save8am"></button>
+              <div class="hour_slot">5 PM</div>
+              <textarea class="Task" id="note9"></textarea>
+              <button class="saveBtn saveBtn:Hover fa fa-archive" id="save5pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">6PM</div>
-              <textarea class="Task" id="note1"></textarea>
-              <button class="fa fa-archive" id="save8am"></button>
+              <div class="hour_slot">6 PM</div>
+              <textarea class="Task" id="note10"></textarea>
+              <button class="saveBtn saveBtn:Hover fa fa-archive" id="save6pm"></button>
           </div>
       </div>
+      <button class="clearAll" id="clearAllTasks">All done! Clear the planner</button>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
