@@ -32,7 +32,7 @@
       <!-- Timeblocks go here -->
         <div class="row">
             <div class="hour_slot">8 AM</div>
-            <textarea class="Task" id="note0"></textarea>
+            <textarea class="task" id="note0"></textarea>
             <button class="saveBtn fa fa-archive" id="save8am"></button>
         </div>
     </div>
@@ -40,7 +40,7 @@
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">9 AM</div>
-              <textarea class="Task" id="note1"></textarea>
+              <textarea class="task" id="note1"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save9am"></button>
           </div>
       </div>
@@ -48,7 +48,7 @@
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">10AM</div>
-              <textarea class="Task" id="note2"></textarea>
+              <textarea class="task" id="note2"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save10am"></button>
           </div>
       </div>
@@ -56,7 +56,7 @@
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">11AM</div>
-              <textarea class="Task" id="note3"></textarea>
+              <textarea class="task" id="note3"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save11am"></button>
           </div>
       </div>
@@ -64,7 +64,7 @@
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">12PM</div>
-              <textarea class="Task" id="note4"></textarea>
+              <textarea class="task" id="note4"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save12pm"></button>
           </div>
       </div>
@@ -72,7 +72,7 @@
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">1 PM</div>
-              <textarea class="Task" id="note5"></textarea>
+              <textarea class="task" id="note5"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save1pm"></button>
           </div>
       </div>
@@ -80,7 +80,7 @@
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">2 PM</div>
-              <textarea class="Task" id="note6"></textarea>
+              <textarea class="task" id="note6"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save2pm"></button>
           </div>
       </div>
@@ -88,7 +88,7 @@
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">3 PM</div>
-              <textarea class="Task" id="note7"></textarea>
+              <textarea class="task" id="note7"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save3pm"></button>
           </div>
       </div>
@@ -96,7 +96,7 @@
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">4 PM</div>
-              <textarea class="Task" id="note8"></textarea>
+              <textarea class="task" id="note8"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save4pm"></button>
           </div>
       </div>
@@ -104,7 +104,7 @@
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">5 PM</div>
-              <textarea class="Task" id="note9"></textarea>
+              <textarea class="task" id="note9"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save5pm"></button>
           </div>
       </div>
@@ -112,7 +112,7 @@
         <!-- Timeblocks go here -->
           <div class="row">
               <div class="hour_slot">6 PM</div>
-              <textarea class="Task" id="note10"></textarea>
+              <textarea class="task" id="note10"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save6pm"></button>
           </div>
       </div>
@@ -123,11 +123,10 @@
     <script>
         $(document).ready(function(){
             var dateParagraph = $("#currentDay");
-            var todayDate = moment().format("dddd, MMMM Do YYYY");
+            var todayDate = moment().format("dddd, MMMM Do, YYYY");
             dateParagraph.text(todayDate);
         });
 
-        
     </script>
   </body>
 </html>
