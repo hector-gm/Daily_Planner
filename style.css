@@ -90,9 +90,11 @@ textarea{
 .clearAll {
     float: center;
     border: navy;
+    border-radius: 5px;
     background-color: lightblue;
     color: black;
     font-size: 20px;
     padding: 10px;
+    margin: auto;
     display: block;
 }
