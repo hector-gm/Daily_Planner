@@ -32,12 +32,14 @@ textarea{
 
 .time-block{
   text-align: center;
-  border-radius: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-left: 2px solid navy;
   border-top: 2px solid navy;
   border-bottom: 2px solid navy;
-  padding-top: 10px;
+  padding-top: 25px;
   font-size: 25px;
-  width: 2rem;
+  width: 6rem;
 }
 
 .row {

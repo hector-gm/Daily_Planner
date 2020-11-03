@@ -31,95 +31,96 @@
     <div class="container">
       <!-- Timeblocks go here -->
         <div class="row">
-            <div class="hour_slot">8 AM</div>
-            <textarea class="task" id="note0"></textarea>
+            <div class="time-block">8 AM</div>
+            <textarea class="description" id="note0"></textarea>
             <button class="saveBtn fa fa-archive" id="save8am"></button>
         </div>
     </div>
     <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">9 AM</div>
-              <textarea class="task" id="note1"></textarea>
+              <div class="time-block">9 AM</div>
+              <textarea class="description" id="note1"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save9am"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">10AM</div>
-              <textarea class="task" id="note2"></textarea>
+              <div class="time-block">10AM</div>
+              <textarea class="description" id="note2"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save10am"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">11AM</div>
-              <textarea class="task" id="note3"></textarea>
+              <div class="time-block">11AM</div>
+              <textarea class="description" id="note3"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save11am"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">12PM</div>
-              <textarea class="task" id="note4"></textarea>
+              <div class="time-block">12PM</div>
+              <textarea class="description" id="note4"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save12pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">1 PM</div>
-              <textarea class="task" id="note5"></textarea>
+              <div class="time-block">1 PM</div>
+              <textarea class="description" id="note5"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save1pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">2 PM</div>
-              <textarea class="task" id="note6"></textarea>
+              <div class="time-block">2 PM</div>
+              <textarea class="description" id="note6"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save2pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">3 PM</div>
-              <textarea class="task" id="note7"></textarea>
+              <div class="time-block">3 PM</div>
+              <textarea class="description" id="note7"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save3pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">4 PM</div>
-              <textarea class="task" id="note8"></textarea>
+              <div class="time-block">4 PM</div>
+              <textarea class="description" id="note8"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save4pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">5 PM</div>
-              <textarea class="task" id="note9"></textarea>
+              <div class="time-block">5 PM</div>
+              <textarea class="description" id="note9"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save5pm"></button>
           </div>
       </div>
       <div class="container">
         <!-- Timeblocks go here -->
           <div class="row">
-              <div class="hour_slot">6 PM</div>
-              <textarea class="task" id="note10"></textarea>
+              <div class="time-block">6 PM</div>
+              <textarea class="description" id="note10"></textarea>
               <button class="saveBtn saveBtn:Hover fa fa-archive" id="save6pm"></button>
           </div>
       </div>
       <button class="clearAll" id="clearAllTasks">All done! Clear the planner</button>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js">
+    <script src="script.js></script>
     <script>
         $(document).ready(function(){
             var dateParagraph = $("#currentDay");
@@ -131,6 +132,8 @@
             localStorage.clear();
             location.reload()
         });
+
+       
 
     </script>
   </body>
