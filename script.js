@@ -2,7 +2,7 @@
 var timeNow= new Date().getHours();
 
 if (timeNow > 8) {
-    $("#note1").addClass("past");
+    $("#note0").addClass("past");
 	}	
     else if (timeNow >= 8 && timeNow < 9) {
         $("#note0").addClass("present");
