@@ -112,16 +112,15 @@ if (timeNow > 18) {
 
 
     // 8AM Task code to commit to local storage and retrieve value
-    var input_textarea0 = document.querySelector('note0');
+    var input_textarea0 = document.getElementById('note0');
     var save_button0 = document.querySelector('#save8am');
 
     input_textarea0.value = localStorage.getItem('content0');
-    debugger;
 
-    saveNote1.addEventListener('click', updateOutput0);
+    save8am.addEventListener('click', updateOutput0);
 
     function updateOutput0() {
-    localStorage.setItem('content0', input_textarea1.value);
+    localStorage.setItem('content0', input_textarea0.value);
     };
 
     //9AM Task code to commit to local storage and retrieve value
@@ -130,7 +129,7 @@ if (timeNow > 18) {
 
     input_textarea1.value = localStorage.getItem('content1');
 
-    saveNote1.addEventListener('click', updateOutput1);
+    save9am.addEventListener('click', updateOutput1);
 
     function updateOutput1() {
     localStorage.setItem('content1', input_textarea1.value);
@@ -142,7 +141,7 @@ if (timeNow > 18) {
 
     input_textarea2.value = localStorage.getItem('content2');
 
-    saveNote2.addEventListener('click', updateOutput2);
+    save10am.addEventListener('click', updateOutput2);
 
     function updateOutput2() {
 	localStorage.setItem('content2', input_textarea2.value);
@@ -154,7 +153,7 @@ if (timeNow > 18) {
 
     input_textarea3.value = localStorage.getItem('content3');
 
-    saveNote3.addEventListener('click', updateOutput3);
+    save11am.addEventListener('click', updateOutput3);
 
     function updateOutput3() {
 	localStorage.setItem('content3', input_textarea3.value);
@@ -166,7 +165,7 @@ if (timeNow > 18) {
 
     input_textarea4.value = localStorage.getItem('content4');
 
-    saveNote4.addEventListener('click', updateOutput4);
+    save12pm.addEventListener('click', updateOutput4);
 
     function updateOutput4() {
 	localStorage.setItem('content4', input_textarea4.value);
@@ -178,7 +177,7 @@ if (timeNow > 18) {
 
     input_textarea5.value = localStorage.getItem('content5');
 
-    saveNote5.addEventListener('click', updateOutput5);
+    save1pm.addEventListener('click', updateOutput5);
 
     function updateOutput5() {
 	localStorage.setItem('content5', input_textarea5.value);
@@ -190,7 +189,7 @@ if (timeNow > 18) {
 
     input_textarea6.value = localStorage.getItem('content6');
 
-    saveNote6.addEventListener('click', updateOutput6);
+    save2pm.addEventListener('click', updateOutput6);
 
     function updateOutput6() {
 	localStorage.setItem('content6', input_textarea6.value);
@@ -202,7 +201,7 @@ if (timeNow > 18) {
 
     input_textarea7.value = localStorage.getItem('content7');
 
-    saveNote7.addEventListener('click', updateOutput7);
+    save3pm.addEventListener('click', updateOutput7);
 
     function updateOutput7() {
 	localStorage.setItem('content7', input_textarea7.value);
@@ -214,7 +213,7 @@ if (timeNow > 18) {
 
     input_textarea8.value = localStorage.getItem('content8');
 
-    saveNote8.addEventListener('click', updateOutput8);
+    save4pm.addEventListener('click', updateOutput8);
 
     function updateOutput8() {
 	localStorage.setItem('content8', input_textarea8.value);
@@ -226,7 +225,7 @@ if (timeNow > 18) {
 
     input_textarea9.value = localStorage.getItem('content9');
 
-    saveNote9.addEventListener('click', updateOutput9);
+    save5pm.addEventListener('click', updateOutput9);
 
     function updateOutput9() {
 	localStorage.setItem('content9', input_textarea9.value);
@@ -238,19 +237,8 @@ if (timeNow > 18) {
 
     input_textarea10.value = localStorage.getItem('content10');
 
-    saveNote10.addEventListener('click', updateOutput10);
+    save6pm.addEventListener('click', updateOutput10);
 
     function updateOutput10() {
 	localStorage.setItem('content10', input_textarea10.value);
     };
-
-
-
-    var sample = function(){
-        var a = b = 3;
-    }
-
-    sample();
-
-    console.log("Is a defined?", typeof a !== "undefined");
-    console.log("Is b defined?", typeof b !== "undefined");
