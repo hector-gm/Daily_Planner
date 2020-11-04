@@ -1,7 +1,9 @@
 # Daily_Planner
 
 ## Installation
-Clone repository to access the .html and .css files.
+Clone repository to access the .html, .js and .css files.
+
+Please note that this project requires online connectivity to access the jquery and moment.js libraries linked in the html file.
 
 Repository is held at https://github.com/hector-gm/Daily_Planner
 
@@ -16,7 +18,10 @@ For primary use by individuals working a more or less traditional work day that 
 
 Saved tasks / meeting reminders are committed to local storage for easy reference on future browser sessions.
 
+At present time, the day planner doesn't toggle between the current day and past or future days.
+
 ## Credits
+The moment.js library guides are a great reference, please check it out at https://moment.js.com/guides/
 
 ## Licence
 This project holds an MIT Licence with *As Is* status as of latest update of the code.
