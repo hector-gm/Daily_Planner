@@ -91,7 +91,7 @@ textarea{
 
 .clearAll {
     float: center;
-    border: navy;
+    border: navy solid 3px;
     border-radius: 5px;
     background-color: lightblue;
     color: black;
